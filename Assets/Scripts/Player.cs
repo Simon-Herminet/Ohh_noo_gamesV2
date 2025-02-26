@@ -9,15 +9,20 @@ public class Player : MonoBehaviour
     public Transform groundCheck;
     float horizontal;
     SpriteRenderer sr;
+    
+    Animator animator;
 
     private void Start()
     {
         sr = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
     private void FixedUpdate()
     {
         rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
+        animator.SetFloat("Speed", Mathf.Abs(horizontal));
+        animator.SetBool("IsGrounded", isGrounded());
     }
 
 
