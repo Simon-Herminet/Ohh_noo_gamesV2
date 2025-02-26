@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3390919004076924130}
   - component: {fileID: 1620617113172405156}
   m_Layer: 0
-  m_Name: Ninnjaa
+  m_Name: Ninnjaa_noanim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
