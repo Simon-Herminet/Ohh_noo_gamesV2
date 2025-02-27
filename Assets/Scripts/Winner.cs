@@ -7,6 +7,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     public TMP_Text WinnerText;
 
     public GameObject WinnerPanel;
+    public GameObject button;
     
     public void OnTriggerEnter2D(Collider2D collision){
 
@@ -15,6 +16,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
         Debug.Log("Tas gagné BG");
         WinnerText.gameObject.SetActive(true);
         WinnerPanel.gameObject.SetActive(true);
+        button.gameObject.SetActive(true);
         }
     }
 
