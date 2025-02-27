@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: a4b95ea36856a4808a153ebea7273435
+=======
+guid: 243507f80d4476d4584f661cf161668b
+>>>>>>> 8cf8491 (sceneJuju2 ok)
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 9100000
