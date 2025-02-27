@@ -10,6 +10,16 @@ public class PlayerColision : MonoBehaviour
         {
             TakeDamages(3);
         }
+        if (collision.CompareTag("Endlevel"))
+        {
+           if (PlayerPrefs.GetInt("MobDestroyed", 0 ) == 1)
+           {
+            print("Bravo !");
+           }  else
+           {
+            print("Il faut détruire le monstre !");
+           }
+        }
     }
     public void TakeDamages(int damage)
     {
