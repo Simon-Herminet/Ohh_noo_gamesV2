@@ -15,13 +15,14 @@ public class PlayerColision : MonoBehaviour
         }
         if (collision.CompareTag("Endlevel"))
         {
-           if (PlayerPrefs.GetInt("MobDestroyed", 0 ) == 1)
-           {
-            print("Bravo !");
-           }  else
-           {
-            print("Il faut détruire le monstre !");
-           }
+            if (PlayerPrefs.GetInt("MobDestroyed", 0) == 1)
+            {
+                print("Bravo !");
+            }
+            else
+            {
+                print("Il faut détruire le monstre !");
+            }
         }
     }
 
@@ -46,7 +47,7 @@ public class PlayerColision : MonoBehaviour
 
     public void RestartLevel()
     {
-        // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        // SceneManager.LoadScene(1);
     }
 }

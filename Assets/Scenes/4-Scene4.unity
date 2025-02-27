@@ -651,6 +651,10 @@ PrefabInstance:
       propertyPath: button
       value: 
       objectReference: {fileID: 972191437}
+    - target: {fileID: 842710724652201136, guid: 1f42e102bab1d47d2a9996c9ef8bc323, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1121174286762762557, guid: 1f42e102bab1d47d2a9996c9ef8bc323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 224.04575
