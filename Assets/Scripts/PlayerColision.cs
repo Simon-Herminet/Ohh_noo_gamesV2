@@ -31,7 +31,7 @@ public class PlayerColision : MonoBehaviour
         GetComponent<Rigidbody2D>().AddForce(Vector3.up * 180);
         GetComponent<Collider2D>().isTrigger = true;
         GameOverText.gameObject.SetActive(true);
-        Invoke("RestartLevel", 5);
+        Invoke("RestartLevel", 3);
     }
 
     public void RestartLevel()
